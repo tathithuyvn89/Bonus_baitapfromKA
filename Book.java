@@ -53,4 +53,15 @@ public class Book {
     public String toString(){
         return " Book has code" +getBookCode()+" name "+ getName()+ " price "+ getPrice()+ " author "+ getAuthor();
     }
+
+//    @Override
+//    public int compareTo(Book book) {
+//        if(getPrice()>book.getPrice()){
+//            return 1;
+//        } else if (getPrice()<book.getPrice()){
+//            return -1;
+//        } else {
+//            return 1;
+//        }
+//    }
 }
